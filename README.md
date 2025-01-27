@@ -25,11 +25,12 @@ I am Mandla Isaac Hlaoli, a passionate software developer currently upskilling a
 - **Responsive Layout**: The website is fully responsive, making it easy to navigate on mobile devices.
 
 ## Projects
-
-1. **SA ID Generator**: [Link to GitHub]([https://github.com/MandlaHlaoli/project1](https://github.com/MandlaHlaoli/sa-id-number-generator)) | [Live Demo]([https://project1-live.com](https://mandlahlaoli.github.io/sa-id-number-generator/))  
+  
+1. **SA ID Generator**:[Link to GitHub](https://github.com/MandlaHlaoli/sa-id-number-generator) | [Live Demo](https://mandlahlaoli.github.io/sa-id-number-generator/))  
    - This web app generates valid South African ID numbers, with validation and checksum calculation logic.
 
-2. **Project 2**: [Link to GitHub]([https://github.com/MandlaHlaoli/project2](https://github.com/MandlaHlaoli/Virtual-Queue-System))  
+
+2. **Virtual Queue System**: [Link to GitHub](https://github.com/MandlaHlaoli/Virtual-Queue-System)  
    - A backendless virtual queue system built with Java. This project is designed to simulate a virtual queue for managing waiting lists efficiently.
 
 
