@@ -27,7 +27,7 @@ header:hover {
     background-color: #333;
 }
 
-/*Navbar*/
+/* Navbar */
 #navbar {
     position: fixed;
     top: 0;
@@ -40,7 +40,7 @@ header:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     /* Subtle shadow for depth */
     font-family: 'Arial', sans-serif;
-    /* Use a more professional font */
+    /* More professional font */
     transition: background-color 0.3s ease;
 }
 
@@ -85,8 +85,9 @@ header:hover {
     background-color: #333;
 }
 
-
 @media screen and (max-width: 768px) {
+
+    /* Navbar links for smaller screens */
     #navbar .nav-links {
         flex-direction: column;
         gap: 20px;
@@ -102,7 +103,6 @@ header:hover {
 
     #navbar .nav-links.active {
         display: flex;
-
     }
 
     #navbar .nav-links a {
@@ -111,7 +111,6 @@ header:hover {
 
     #navbar .nav-links li {
         text-align: center;
-
     }
 }
 
@@ -181,9 +180,7 @@ header:hover {
     }
 }
 
-
-
-/* Skills section */
+/* Skills Section */
 #skills {
     padding: 2rem 0;
     background-color: #f4f4f4;
@@ -257,102 +254,77 @@ h2 {
 }
 
 /* Projects Section */
-
 #projects {
-    background: #fff;
+    background-color: #fff;
     padding: 80px 0;
-    text-align: center;
-}
-
-#projects h2 {
-    font-size: 2.5rem;
-    margin-bottom: 50px;
-    color: #333;
 }
 
 .project-cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 30px;
-    justify-items: center;
-    margin: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 .project-card {
-    background: #f9f9f9;
-    padding: 30px;
+    background-color: #fff;
+    padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    text-align: left;
-    max-width: 350px;
-    min-height: 300px;
-    /* Ensure equal height for all project cards */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
 }
 
 .project-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px);
 }
 
 .project-card h3 {
     font-size: 1.8rem;
-    margin-bottom: 15px;
     color: #333;
+    margin-bottom: 15px;
 }
 
 .project-card p {
     font-size: 1rem;
     color: #555;
-    margin-bottom: 20px;
     line-height: 1.6;
+    margin-bottom: 20px;
 }
 
-.project-card .btn-container {
+.btn-container {
     display: flex;
     justify-content: center;
     gap: 15px;
-    /* Space between buttons */
-    margin-top: auto;
 }
 
-.project-card .btn {
+.btn {
     background-color: #1e90ff;
-    color: #fff;
+    color: white;
     padding: 10px 20px;
-    text-decoration: none;
     border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
     transition: background-color 0.3s ease;
 }
 
-.project-card .btn:hover {
+.btn:hover {
     background-color: #333;
 }
 
-/* Responsive for smaller screens */
 @media screen and (max-width: 768px) {
-    #projects h2 {
-        font-size: 2rem;
-    }
-
-    .project-card {
-        padding: 20px;
-        text-align: center;
-    }
-
-    .project-card .btn-container {
+    .project-cards {
         flex-direction: column;
+        align-items: center;
     }
 }
+
 /* Contact Section */
 #contact {
-    background: #333;
-    padding: 80px 0;
-    color: #fff;
-    text-align: center;
+    background-color: #f4f4f4;
+    padding: 60px 0;
 }
 
 .social-links {
@@ -362,8 +334,8 @@ h2 {
 }
 
 .social-icon {
-    font-size: 2rem;
-    color: #fff;
+    font-size: 1.8rem;
+    color: #333;
     transition: color 0.3s ease;
 }
 
@@ -373,8 +345,12 @@ h2 {
 
 /* Footer */
 footer {
-    background-color: #1e1e1e;
-    color: #fff;
-    padding: 20px 0;
+    background-color: #333;
+    color: white;
     text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 1rem;
 }
